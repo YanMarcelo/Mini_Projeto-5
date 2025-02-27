@@ -1,0 +1,317 @@
+/* Reset básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fundo do site */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Header estilizado */
+header {
+    background: linear-gradient(135deg, #4CAF50, #388E3C);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título da página */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Estilizando o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Campos do formulário */
+input[type="text"],
+input[type="date"],
+textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito de Foco nos campos */
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+/* Textarea ajustado */
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Botões */
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: none;
+}
+
+/* Estilização específica para botões */
+.btn.cadastrar {
+    background-color: #FF9800;
+    color: white;
+}
+
+.btn.cadastrar:hover {
+    background-color: #F57C00;
+}
+
+.btn.detalhes {
+    background-color: #2196F3;
+    color: white;
+    font-size: 14px;
+}
+
+.btn.detalhes:hover {
+    background-color: #1976D2;
+}
+
+.btn.voltar {
+    background-color: #607D8B;
+    color: white;
+}
+
+.btn.voltar:hover {
+    background-color: #455A64;
+}
+
+.btn.excluir {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn.excluir:hover {
+    background-color: #D32F2F;
+}
+
+.btn.editar {
+    background-color: #FF9800;
+    color: white;
+}
+
+.btn.editar:hover {
+    background-color: #F57C00;
+}
+
+/* Efeitos de interação nos botões */
+.btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:disabled {
+    background-color: #b0e57c;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Cartões e layout flexível */
+.atividade-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 200px;
+}
+
+/* Efeito de Hover no cartão */
+.atividade-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Título e texto dos cartões */
+.atividade-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Lista de atividades com Grid responsivo */
+.atividade-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Organizar os botões dentro do cartão */
+.acao-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Ajusta os estilos gerais dos botões */
+.acao-btns .btn {
+    width: 100%;
+    max-width: 200px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Cartão de Detalhes */
+.atividade-detalhe {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de Hover no cartão de detalhes */
+.atividade-detalhe:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Título e texto dos detalhes */
+.atividade-detalhe h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.atividade-detalhe p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header {
+        font-size: 20px;
+    }
+
+    button,
+    .btn {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    .atividade-list {
+        grid-template-columns: 1fr;
+    }
+
+    .atividade-detalhe {
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    textarea {
+        font-size: 14px;
+    }
+}
+
+/* Descrição da atividade */
+.atividade-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+    overflow-y: auto;
+    max-height: 120px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+/* Estilos para o cabeçalho do cartão */
+.card-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(135deg, #4CAF50, #388E3C);
+}
+
+/* Estilos da bolinha */
+.card-header .bolinha {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cor da bolinha quando marcada */
+.card-header .bolinha.marcado {
+    background-color: #4CAF50;
+}
+
+.btn {
+    text-decoration: none;
+}
