@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+📌 Plataforma de Gerenciamento de Atividades Acadêmicas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎓 Universidade Federal do Ceará - Campus Sobral
 
-## Available Scripts
+Curso: Engenharia da ComputaçãoMini Projeto - 5Autor: Yan Marcelo Barbosa de Oliveira (539742)Data: 27 de Fevereiro de 2025
 
-In the project directory, you can run:
+📖 Introdução
 
-### `npm start`
+No campus da UFC Sobral, a diversidade de atividades acadêmicas, projetos de extensão e eventos exige um sistema eficiente para registro e monitoramento. Atualmente, a ausência de uma solução digital padronizada pode dificultar a organização dessas iniciativas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para atender a essa necessidade, foi desenvolvida uma plataforma web em React, permitindo o cadastro e acompanhamento de atividades acadêmicas. O projeto busca oferecer uma solução funcional e acessível para a comunidade acadêmica.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🚀 Funcionalidades Implementadas
 
-### `npm test`
+📌 Tela de Cadastro
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Formulário para inserção de nome da atividade, responsável, data e descrição.
 
-### `npm run build`
+Validações para garantir que todos os campos obrigatórios sejam preenchidos corretamente antes do envio.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📌 Tela de Listagem
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Exibição de uma lista organizada das atividades cadastradas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Apresentação de informações básicas como nome, responsável e data.
 
-### `npm run eject`
+📌 Tela de Detalhes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Página dedicada para exibir informações detalhadas sobre cada atividade cadastrada.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📌 Validações de Dados
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Verificação do preenchimento obrigatório dos campos.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Validação de formato de data para evitar erros.
 
-## Learn More
+Exibição de mensagens de erro amigáveis para o usuário.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+💡 Funcionalidades Extras (Bônus)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Edição: Possibilidade de atualizar atividades cadastradas.
 
-### Code Splitting
+Exclusão: Remoção de atividades indesejadas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Navegação fluida entre telas utilizando React Router.
 
-### Analyzing the Bundle Size
+Estilização moderna e responsiva, garantindo uma experiência intuitiva.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🎨 Design e Organização do Código
 
-### Making a Progressive Web App
+Interface limpa e organizada, priorizando usabilidade e clareza.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Código modular, com componentes reutilizáveis e bem documentados.
 
-### Advanced Configuration
+Estrutura que facilita futuras manutenções e expansões do projeto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📌 Conclusão
 
-### Deployment
+Este projeto em React representa uma solução eficiente para o gerenciamento de atividades acadêmicas no campus UFC Sobral. Com funcionalidades que abrangem cadastro, visualização, edição e exclusão de atividades, a plataforma atende às necessidades da comunidade acadêmica, promovendo organização e eficiência administrativa.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🛠 Tecnologias Utilizadas
 
-### `npm run build` fails to minify
+React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React Router
+
+CSS para estilização
+
+Git/GitHub para versionamento
